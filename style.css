@@ -1,0 +1,19 @@
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+#section-img, #section-text{
+    width: 40%;
+}
+.image{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) { 
+    #section-img, #section-text{
+        width: 100%;
+    }
+}
